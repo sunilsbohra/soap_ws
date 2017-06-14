@@ -6,6 +6,9 @@ import net.webservicex.GeoIPServiceSoap;
 
 public class IPLocationFinder {
 
+	/*
+	* Provide ip address to the program argument
+	*/
 	public static void main(String[] args) {
 		if(args.length !=1){
 			System.out.println("Invalid input");
